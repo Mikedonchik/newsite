@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+body {
+    background-image: url("https://kartinki.pics/uploads/posts/2021-07/1627001891_2-kartinkin-com-p-prostoi-serii-fon-krasivo-2.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    width: 1200px;
+    height: 100px;
+    background: #00000096;
+    border-radius: 24px;
+}
+
+.first {
+    font-size: 82px;
+    color: rgba(164, 164, 164, 0.315);
+    letter-spacing: .3rem;
+    margin-left: 24px;
+
+}
+
+
+
+.all_2 {
+    display: flex;
+    justify-content: flex-start;
+    text-align: start;
+    align-items: flex-start;
+    position: relative;
+    bottom: 0;
+    margin-bottom: 22px;
+}
+
+.put {
+    width: 920px;
+    height: 50px;
+    border-radius: 15px;
+    background: #00000096;
+    font-size: 24px;
+    border: none;
+    color: rgba(164, 164, 164, 0.315);
+    padding-left: 10px;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+.but{
+    color: rgb(144, 144, 144);
+    background: black;
+    border-radius: 15px;
+    height: 50px;
+    width: 80px;
+}
